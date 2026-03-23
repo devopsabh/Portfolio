@@ -1,0 +1,46 @@
+<body style="margin: 0; padding: 0; background-color: #0a0a0a; color: #ffffff; font-family: 'Garamond', serif; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; text-align: center;">
+
+    <div style="width: 100%; height: 5px; background: linear-gradient(90deg, #b8860b, #ffd700, #b8860b); position: fixed; top: 0;"></div>
+
+    <div style="border: 2px solid #d4af37; padding: 40px; margin-top: 20px; background: rgba(255, 215, 0, 0.05); border-radius: 15px; box-shadow: 0 0 30px rgba(212, 175, 55, 0.2);">
+        <h1 style="font-size: 70px; margin: 0; letter-spacing: 8px; color: #d4af37; text-transform: uppercase; font-weight: 900; line-height: 1;">
+            MPSC <br> 
+            <span style="font-size: 40px; color: #ffffff; letter-spacing: 15px;">ASPIRANT</span>
+        </h1>
+    </div>
+
+    <div style="margin-top: 60px; position: relative;">
+        <div style="width: 25px; height: 15px; background-color: #ff0000; margin: 0 auto; border-radius: 10px 10px 0 0; box-shadow: 0 0 25px #ff0000; animation: blink 0.8s infinite;"></div>
+        
+        <div style="font-size: 100px; margin-top: -10px; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.8));">
+            🚔
+        </div>
+        
+        <div style="width: 300px; height: 2px; background: #333; margin: 10px auto;"></div>
+    </div>
+
+    <div style="max-width: 600px; margin-top: 40px; padding: 0 20px;">
+        <h2 style="color: #ffd700; font-style: italic; font-weight: 300; letter-spacing: 2px;">"Duty, Honor, State."</h2>
+        <p style="font-size: 18px; color: #aaaaaa; line-height: 1.8;">
+            The road to the <b>Mantralaya</b> is paved with discipline. 
+            Keep your eyes on the target, your mind in the books, and your heart in service.
+        </p>
+    </div>
+
+    <a href="#" style="margin-top: 30px; padding: 15px 40px; background-color: #d4af37; color: #000; text-decoration: none; font-weight: bold; border-radius: 50px; text-transform: uppercase; letter-spacing: 2px; transition: 0.3s; box-shadow: 0 10px 20px rgba(0,0,0,0.4);">
+        Enter the Academy
+    </a>
+
+    <footer style="margin-top: 80px; font-size: 12px; color: #444; letter-spacing: 1px;">
+        DEDICATED TO THE FUTURE OFFICERS OF MAHARASHTRA
+    </footer>
+
+    <script>
+        const siren = document.querySelector('div[style*="background-color: #ff0000"]');
+        setInterval(() => {
+            siren.style.opacity = (siren.style.opacity == '0.3' ? '1' : '0.3');
+            siren.style.boxShadow = (siren.style.opacity == '1' ? '0 0 30px #ff0000' : 'none');
+        }, 500);
+    </script>
+
+</body>

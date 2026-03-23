@@ -1,0 +1,58 @@
+<body style="margin: 0; padding: 0; background-color: #0f172a; color: #e2e8f0; font-family: 'Segoe UI', Helvetica, sans-serif; display: flex; flex-direction: column; align-items: center; min-height: 100vh; text-align: center;">
+
+    <div style="width: 100%; height: 6px; background: linear-gradient(90deg, #10b981, #3b82f6, #10b981); position: fixed; top: 0; z-index: 100;"></div>
+
+    <header style="margin-top: 80px; padding: 40px; border: 1px solid #1e293b; background: rgba(30, 41, 59, 0.5); border-radius: 20px; box-shadow: 0 20px 50px rgba(0,0,0,0.5); max-width: 80%; width: 600px;">
+        <div style="font-size: 80px; margin-bottom: 10px; filter: drop-shadow(0 0 10px #10b981);">🏛️</div>
+        <h1 style="font-size: 55px; margin: 0; color: #ffffff; letter-spacing: -1px; font-weight: 800; line-height: 0.9;">
+            BANKER <br> 
+            <span style="color: #10b981; font-size: 35px; letter-spacing: 12px; font-weight: 300;">ASPIRANT</span>
+        </h1>
+        <p style="margin-top: 20px; color: #94a3b8; font-size: 14px; text-transform: uppercase; letter-spacing: 4px;">Precision • Integrity • Growth</p>
+    </header>
+
+    <div style="margin-top: 50px; display: flex; align-items: center; gap: 20px;">
+        <div style="font-size: 60px; opacity: 0.8; animation: bounce 2s infinite alternate;">💰</div>
+        <div id="graph-container" style="display: flex; align-items: flex-end; gap: 8px; height: 100px;">
+            <div style="width: 15px; background: #1e293b; height: 30%;"></div>
+            <div style="width: 15px; background: #1e293b; height: 50%;"></div>
+            <div style="width: 15px; background: #3b82f6; height: 70%;"></div>
+            <div style="width: 15px; background: #10b981; height: 100%; box-shadow: 0 0 15px #10b981;"></div>
+        </div>
+        <div style="font-size: 60px; opacity: 0.8; animation: bounce 2s infinite alternate-reverse;">📈</div>
+    </div>
+
+    <div style="max-width: 700px; margin-top: 60px; padding: 0 30px;">
+        <h2 style="font-size: 28px; color: #3b82f6; font-weight: 400;">The Path to the Officer's Cabin</h2>
+        <p style="font-size: 18px; color: #94a3b8; line-height: 1.8; font-style: italic;">
+            "From balancing equations to balancing the nation's economy. <br> Every mock test is a deposit into your future success."
+        </p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-top: 40px; width: 350px;">
+        <div style="padding: 15px; background: #1e293b; border-radius: 10px; border: 1px solid #334155;">IBPS PO</div>
+        <div style="padding: 15px; background: #1e293b; border-radius: 10px; border: 1px solid #334155;">SBI Clerk</div>
+        <div style="padding: 15px; background: #1e293b; border-radius: 10px; border: 1px solid #334155;">RBI Grade B</div>
+        <div style="padding: 15px; background: #1e293b; border-radius: 10px; border: 1px solid #334155;">Quants Prep</div>
+    </div>
+
+    <button style="margin-top: 50px; padding: 20px 50px; background: #10b981; color: #000; border: none; border-radius: 5px; font-weight: 800; font-size: 16px; cursor: pointer; text-transform: uppercase; letter-spacing: 2px; box-shadow: 0 10px 30px rgba(16, 185, 129, 0.3);">
+        Start Today's Mock Test
+    </button>
+
+    <footer style="margin-top: 100px; padding-bottom: 40px; color: #475569; font-size: 12px; letter-spacing: 2px;">
+        ESTABLISHED FOR FUTURE GOVERNORS & MANAGERS
+    </footer>
+
+    <script>
+        const style = document.createElement('style');
+        style.innerHTML = `
+            @keyframes bounce {
+                from { transform: translateY(0); }
+                to { transform: translateY(-15px); }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+
+</body>
